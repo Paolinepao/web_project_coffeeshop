@@ -108,19 +108,23 @@
   color: #838383;
   text-align: start;
   margin: auto 80px 40px;
+  /*display: flex;
+  justify-content: space-between;
+  align-items: flex-end;*/
+}
+.header__paragraph {
+  margin: 0;
+}
+.header__column {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
 }
-.header__horarios {
+.header__list {
+  list-style-type: none;
+  padding: 0;
   margin: 0;
-}
-.header__parapraph {
-  text-align: end;
-  margin: 0;
-}
-
-.content {
 }
 .recipes {
   background-image: url(/images/background_recipes.svg);
