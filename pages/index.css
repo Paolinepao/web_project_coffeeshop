@@ -171,6 +171,107 @@
   height: 263px;
 }
 .reservation {
+  background-image: url(/images/background_reservation.svg);
+  background-size: cover;
+  background-position: center;
+  background-color: #d9e7ff;
+  margin: 0;
+  padding-bottom: 120px;
+}
+.reservation__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  padding: 100px 0 80px 0;
+  margin: 0;
+}
+.reservation__form {
+  max-width: 385px; /* Ajusta el ancho del formulario */
+  margin: 0 auto;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column; /* Organiza los labels y inputs en columnas */
+  gap: 10px; /* Espacio entre cada input */
+  width: 100%;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.form__input {
+  padding: 15px 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%; /* Hace que los inputs ocupen el 100% del contenedor */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  height: 60px;
+  margin: 8px auto 32px;
+}
+
+.form__button {
+  background-color: #2f80ed; /* Azul */
+  color: white; /* Texto blanco */
+  border: none;
+  height: 60px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Para que ocupe todo el ancho del formulario */
+  margin-bottom: 32px;
+}
+.form__button:hover {
+  background-color: #0056b3;
+}
+.form__checkbox {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+.form__label-checkbox {
+  margin: 0 auto;
+  display: flex;
+}
+.form__label-input-checkbox {
+  margin: 0 0 0 12px;
+  height: 20px;
+  align-items: center;
+}
+
+/*
+.form__label_checkbox {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+}
+*/
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  appearance: none; /* Oculta el checkbox predeterminado */
+  background-color: white;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
 }
 .footer {
 }
