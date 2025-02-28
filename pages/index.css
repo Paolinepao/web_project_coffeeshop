@@ -176,7 +176,7 @@
   background-position: center;
   background-color: #d9e7ff;
   margin: 0;
-  padding-bottom: 120px;
+  padding: 100px 0 120px;
 }
 .reservation__title {
   font-family: Inter;
@@ -185,10 +185,7 @@
   font-size: 44px;
   line-height: 52px;
   text-align: center;
-  padding-top: 100px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
 }
 .reservation__form {
   max-width: 385px; /* Ajusta el ancho del formulario */
