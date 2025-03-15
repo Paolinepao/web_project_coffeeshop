@@ -9,3 +9,5 @@ La página web de momento está destinada para quienes se interesen en nuestras 
 PROYECTO A IMPLEMENTAR
 Si nuestros cliente simplemente quiere disfrutar de nuestro café y necesita el servicio solo para llevar, podria solicitar en línea el pedido, y se lo tendremos listo para que lo pague y lo recoja.
 Para ello se implementará una sección en la página donde se pueda seleccionar el tipo de café que desee, su tamaño, la forma de pago y la hora en la que pasará a recogerlo, también habrá una opción en la que el cliente decide si desea entrar a recoger el café o desea que alguien se lo entregue en el auto. (que buscar un parqueo no te quite el gusto de llevar un delicioso café a tu oficina)
+
+https://paolinepao.github.io/web_project_coffeeshop/
