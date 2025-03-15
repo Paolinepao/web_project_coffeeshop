@@ -64,14 +64,3 @@
   height: 20px;
   align-items: center;
 }
-/*
-.custom-checkbox {
-  width: 20px;
-  height: 20px;
-  border-radius: 2px;
-  appearance: none;
-  background-color: white;
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-}
