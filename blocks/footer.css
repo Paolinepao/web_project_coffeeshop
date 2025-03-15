@@ -48,7 +48,7 @@
   margin: 0;
 }
 
-.social-link {
+.footer__social-link {
   display: flex;
   text-decoration: none;
   color: white;
@@ -56,7 +56,7 @@
   align-items: center;
   margin: 0 0 16px;
 }
-.social-link:hover {
+.footer__social-link:hover {
   color: #c1c1c1;
 }
 

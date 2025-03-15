@@ -6,6 +6,10 @@
   margin: 0;
   padding: 100px 0 120px;
 }
+.reservation__form {
+  max-width: 385px;
+  margin: 0 auto;
+}
 .reservation__title {
   font-family: Inter;
   font-style: normal;
